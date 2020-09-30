@@ -1,0 +1,71 @@
+body{
+    padding: 45px;
+    background-color: yellow;
+}
+#main{
+
+    width: 450px;
+    height: 450px;
+    background-color:black;
+
+
+}
+
+#sub{
+    display: flex;
+
+}
+#green button{
+    background-color: green;
+    width: 150px;
+    height: 60px;
+} 
+#blue button{
+    background-color:blue;
+    width: 150px;
+    height: 60px;
+} 
+#red button{
+    background-color: red;
+    width: 150px;
+    height: 60px;
+} 
+button{
+    width: 150px;
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    transition: all  .2s;
+
+
+}
+#clear button{
+    width: 450px;
+    height: 45px;
+    background-color: gray;
+    font-size:35px;
+    padding-right: 20px;
+   
+
+}
+#clear button:hover{
+    background-color: darkgray;
+  
+
+}
+#green button:hover{
+    background-color: darkgreen;
+    font-size: 20px;
+  
+} 
+#blue button:hover{
+    background-color: darkblue;
+    font-size: 20px;
+ 
+} 
+#red button:hover{
+    background-color: darkred;
+    font-size: 20px;
+ 
+} 
